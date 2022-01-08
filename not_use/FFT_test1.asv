@@ -1,0 +1,11 @@
+clear;
+%voice = 'aiueo_E.wav';
+voice = 'kakikukeko_E.wav';
+[x,fs] = audioread(voice);
+
+fs = x()
+pspectrum(x, fs,'spectrogram'); 
+
+plot(x)
+xlabel('Sample Number')
+ylabel('Amplitude')
