@@ -1,7 +1,7 @@
 clear;
 %voice = 'aiueo_E.wav';
 voice = 'kakikukeko_E.wav';
-voice = 'E3-165Hz.wav';
+%voice = 'E3-165Hz.wav';
 
 [x,fs] = audioread(voice);
 pspectrum(x, fs,'spectrogram'); 
